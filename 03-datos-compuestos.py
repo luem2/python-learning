@@ -48,4 +48,4 @@ diccionario = {
 
 print("diccionario", diccionario)  # Diccionario completo
 print(diccionario["nombre"])  # Luciano
-#  print(diccionario[3])  # Tira error
+#  print(diccionario[3])  # Tira error (se puede acceder con el nombre de la key, no por indice)
