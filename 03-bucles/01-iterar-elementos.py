@@ -1,4 +1,5 @@
 # En python, los bucles son for in.
+# Todo esto funciona igual que con tuplas, excepto en el caso en donde se usa la manera no optima de recorrer una lista.
 
 animales = ["perro", "gato", "pajaro"]
 numeros = [10, 62, 53]
@@ -30,7 +31,7 @@ for numero in range(15, 20):
 for numero in range(5):
     print(numero)
 
-# Forma no optima de recorrer una lista:
+# Forma no optima de recorrer una lista: IMPORTANTE: No funciona para recorrer conjuntos
 
 for num in range(len(numeros)):
     print(f"Forma no optima: {numeros[num]}")
