@@ -21,5 +21,8 @@ print(type(modulo_saludar))
 # Para ver las propiedades y metodos de un modulo
 print(dir(modulo_saludar))
 
+# Indica el nombre del modulo actual.
+print(__name__)  # __main__
+
 # Accedemos al nombre original del modulo.
 print(ms.__name__)
